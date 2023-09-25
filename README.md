@@ -1,3 +1,5 @@
+
+
 [PdfConverter](./public/pdf-to-text-color.svg)
 # pdfConverter
 
@@ -14,9 +16,7 @@ Navegadores: Chrome, Edge, Mozila ou Opera
 ## Instalação
 Não há necessidade de instalações, exceto se não tiver o Node instalado na máquina.
 
-## 
-<iframe src="./icons.html" frameborder="0" scrolling="no" width="100%" height="100"></iframe>
->Uso
+## <i class="fa fa-wrench"></i>Uso
 Necessárias duas instâncias do prompt uma executará o front-end e na outra instância o back-end.
 #### <span style="color: blue">Front-End</span>
 <code>npm run web</code>
