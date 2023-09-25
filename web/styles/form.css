@@ -1,0 +1,16 @@
+input[type="file"]{
+  display: none;
+}
+
+label {
+  padding: 20px 30px;
+  border-radius: 8px;
+  background-color: #DEEBF3;
+  color: #1F3D75;
+  font-weight: 500;
+}
+
+label:hover{
+  background-color: #1F3D75;
+  color: #DEEBF3
+}

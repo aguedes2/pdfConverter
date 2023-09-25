@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/pdf.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/web/styles/base.css" rel="stylesheet" />
+    <title>Pdf To Text</title>
+  </head>
+  <body class="bg-[#f4fbfe]">
+    <div id="app" class="flex flex-col justify-center items-center h-screen gap-5 bg-slate-800">
+      <image src="./pdf-to-text-color.svg" class="w-1/2">
+      <div class="flex items-center justify-center w-full">
+        <form id="formulario"  method="POST" enctype="multipart/form-data" class="flex gap-5 w-1/2">
+          <div id="form-container" class="flex flex-col w-3/4 p-2 gap-3">
+            <label for="input-file" class="text-xl" style="user-select: none;">Carregar PDF</label>
+            <input type="file" id="input-file" accept=".pdf" name="pdfFile" required class="text-2xl text-slate-100 p-x-5 bg-slate-800 rounded-lg w-full hover:text-[#1e3c74] hover:bg-slate-100">
+          </div>
+          <button type="submit" id="up-button" class="text-5xl  bg-slate-200 text-[#1e3c74] hover:text-slate-200 hover:bg-[#1e3c74] rounded-lg w-36 m-2"><i class="ph-fill ph-upload-simple w-full"></i></button>
+        </form>
+      </div>
+      <h2 id="status" class="text-3xl"></h2>
+    </div>
+    <script type="module" src="./main.js"></script>
+     <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </body>
+</html>
