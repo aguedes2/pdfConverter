@@ -14,10 +14,10 @@ Navegadores: Chrome, Edge, Mozila ou Opera
 ## Instalação
 Não há necessidade de instalações, exceto se não tiver o Node instalado na máquina.
 
-## Uso
+## <i class="fa fa-wrench"></i>Uso
 Necessárias duas instâncias do prompt uma executará o front-end e na outra instância o back-end.
-#### Front-End
-npm run web
-#### Back-end
-npm run server
+#### <span style="color: blue">Front-End</span>
+<code>npm run web</code>
+#### <span style="color: red;">Back-end</span>
+<code>npm run server</code>
 
