@@ -1,4 +1,4 @@
-![logo do pdfConverter](https://imgur.com/mlBBIIJ)
+[PdfConverter](https://imgur.com/mlBBIIJ)
 # pdfConverter
 
 ## Descrição
